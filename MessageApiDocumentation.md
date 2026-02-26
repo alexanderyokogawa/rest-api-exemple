@@ -88,7 +88,7 @@ Exemplo de resposta de erro:
   "message": "Message with id 99 not found"
 }
 ```
-
+```
 src/main/java/com/jusfy/messageapi/
 ├── controllers/       # Camada de controle (endpoints REST)
 ├── dto/               # Objetos de transferência de dados
@@ -97,6 +97,7 @@ src/main/java/com/jusfy/messageapi/
 ├── repositories/      # Camada de acesso a dados
 ├── services/          # Regras de negócio
 └── MessageApiApplication.java
+```
 
 ## 📊 Health Check
 A API expõe endpoints de monitoramento via **Spring Actuator**:
